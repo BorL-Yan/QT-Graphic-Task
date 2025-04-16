@@ -1,5 +1,4 @@
-QT       += core gui
-QT += charts
+QT += core gui charts location
 
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -15,9 +14,10 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    point.h
 
-FORMS += \
+FORMS -= \
     mainwindow.ui
 
 # Default rules for deployment.
